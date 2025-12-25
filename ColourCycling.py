@@ -9,7 +9,10 @@
 #ownership of any external ideas, methods, or experimental results.
 
 #This software is a computer simulation of what you would see when 
-#hold a magnet up against a CRT screen.
+#hold a magnet up against a CRT screen. The magnet is rotated 360 degrees.
+#An image is stored for each angle. An mp4 video is generated showing
+#an animation of the CRT display as the magnet is rotated.
+
 #This code works with Python 3.11 and MagPyLib 4.4.0
 
 import numpy as np
@@ -145,5 +148,6 @@ for frame in range(N_FRAMES):
 
 writer.close()
 print("MP4 saved as rotating_sphere_magnet_CRT_RGB.mp4")
+
 
 
