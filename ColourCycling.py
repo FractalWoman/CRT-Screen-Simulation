@@ -1,3 +1,14 @@
+#Copyright © [2025] Lori Gardi
+
+#Permission is hereby granted, free of charge, to any person
+#obtaining a copy of this software and associated documentation
+#files, to use, copy, modify, and distribute the software for
+#educational and research purposes.
+#This software is provided "as is", without warranty of any kind.
+#This implementation is an independent work and does not claim
+#ownership of any external ideas, methods, or experimental results.
+
+#This code works with Python 3.11 and MagPyLib 4.4.0
 import numpy as np
 import magpylib as mag
 import imageio
@@ -131,3 +142,4 @@ for frame in range(N_FRAMES):
 
 writer.close()
 print("MP4 saved as rotating_sphere_magnet_CRT_RGB.mp4")
+
