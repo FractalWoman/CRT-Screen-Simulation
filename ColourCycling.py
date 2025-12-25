@@ -8,7 +8,10 @@
 #This implementation is an independent work and does not claim
 #ownership of any external ideas, methods, or experimental results.
 
+#This software is a computer simulation of what you would see when 
+#hold a magnet up against a CRT screen.
 #This code works with Python 3.11 and MagPyLib 4.4.0
+
 import numpy as np
 import magpylib as mag
 import imageio
@@ -142,4 +145,5 @@ for frame in range(N_FRAMES):
 
 writer.close()
 print("MP4 saved as rotating_sphere_magnet_CRT_RGB.mp4")
+
 
