@@ -1,4 +1,5 @@
 **CRTExperiment.py**
+
 This is a simulation of a magnet held up against a CRT screen. 
 Copyright © [2025] Lori Gardi
 
@@ -7,6 +8,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 This code works with Python 3.11 and MagPyLib 4.4.0
 
 **Ferrocell Code.py**
+
 This is a simulation of the ferrocell.
 Copyright © [2025] Lori Gardi
 
